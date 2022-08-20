@@ -116,7 +116,7 @@ textarea:focus {
     display: block;
     position: absolute;
     padding: 30px;
-    margin: 40px 100px;
+    margin: 40px 90px;
     width: 400px;
     height: 644px;
 
@@ -133,11 +133,47 @@ textarea:focus {
 
 }
 
+#copiar {
+    position: absolute;
+    margin: 600px 200px;
+    width: 200px;
+    height: 60px;
+    padding: 20px;
+    background: #e9d5da;
+
+    font-size: 16px;
+    font-weight: bold;
+    color: #3e065f;
+
+    border: 2px solid #3e065f;
+    border-radius: 25px ;
+
+}
+
 footer {
     
     text-align: center;
     height: 100px;
     padding: 30px;
-    border: 2px solid #000000;
     
+    font-size: 25px;
+    color: #e9d5da;
+}
+
+.redeSocial {
+    margin: 15px;
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    
+}
+.redeSocial a{
+    text-decoration: none;
+    font-size: 25px;
+    color: #e9d5da;
+}
+
+#github img , #linkedin img{
+    
+    width: 35px;
 }
