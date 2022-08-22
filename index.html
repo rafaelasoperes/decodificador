@@ -14,7 +14,7 @@
 </head>
 <body>
     <header>          
-        <h1><img src="imagens/logo.png" alt="Logo Secreto"></h1>
+        <img src="imagens/logo.png" alt="Logo Secreto">
     </header>
 
     <main>
@@ -28,7 +28,7 @@
             <div class="botoes">
 
                 <button onclick="criptografar()" id="criptografar"> Criptografar</button>
-                <button id="descriptografar">Descriptografar</button>
+                <button onclick="descriptografar()" id="descriptografar">Descriptografar</button>
 
             </div>
 
@@ -36,11 +36,11 @@
         
         <section class="campoResposta">
 
-            <textarea placeholder="" id="resposta" cols="20" rows="10" ></textarea>
+            <textarea  id="resposta" type="text" cols="20" rows="10" readonly></textarea>
             
 
             <div>
-                <button id="copiar">Copiar</button>
+                <button onclick="copiarTexto()" id="copiar">Copiar</button>
 
             </div>
 

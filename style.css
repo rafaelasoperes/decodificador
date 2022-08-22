@@ -14,7 +14,7 @@ header {
 
 }
 
-h1 img{
+header img{
     top: 30px;
     width: 120px;
     height: 130px;
@@ -35,8 +35,6 @@ textarea:focus {
 
 .principal {
     width: 1100px;
-    
-   
 
 }
 
@@ -93,14 +91,19 @@ textarea:focus {
     width: 328px;
     height: 60px;
     padding: 20px;
-
+    
     background: #e9d5da;
     color: #3e065f;
     border-radius: 24px;
-
+    
     font-size: 16px;
     font-weight: bold;
-   
+    
+}
+
+#descriptografar:hover, #criptografar:hover {
+    font-size: 20px ;
+    transition: 1s;
 }
 
 /* Campo de resposta*/
@@ -135,7 +138,7 @@ textarea:focus {
 
 #copiar {
     position: absolute;
-    margin: 600px 200px;
+    margin: 610px 200px;
     width: 200px;
     height: 60px;
     padding: 20px;
@@ -148,6 +151,12 @@ textarea:focus {
     border: 2px solid #3e065f;
     border-radius: 25px ;
 
+}
+
+#copiar:hover {
+    background: #3e065f;
+    color: #e9d5da;
+    transition: 1s;
 }
 
 footer {
