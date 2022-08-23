@@ -1,4 +1,3 @@
-//função que recebe e envia para outro textarea pelo botão.
 
  function criptografar() {
      var frase = document.getElementById('informacao').value;
@@ -32,7 +31,6 @@
     document.getElementById('informacao').value = '';
     
     console.log(letras)
-     
  }
 
  function descriptografar() {
@@ -60,21 +58,14 @@
         }
     }
     document.getElementById('resposta').value = frase;
-    console.log(frase)
-    
-
-    
-
+    console.log(frase);
  }
 
 
  function copiarTexto() {
-    var resposta = document.getElementById("resposta");
-    var textoCopiado = resposta;
+    var textoCopiado = document.getElementById("resposta");;
     textoCopiado.select();
     document.execCommand('copy');
     alert('O texto é: ' + textoCopiado.value)
     console.log(textoCopiado)
  }
-
-  
