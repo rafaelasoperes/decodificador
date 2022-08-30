@@ -66,6 +66,5 @@
     var textoCopiado = document.getElementById("resposta");;
     textoCopiado.select();
     document.execCommand('copy');
-    alert('O texto é: ' + textoCopiado.value)
-    console.log(textoCopiado)
+    console.log(textoCopiado.value)
  }

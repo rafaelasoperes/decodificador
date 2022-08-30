@@ -4,13 +4,14 @@
 
 body { 
     background-image: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-    
 }
 
 header {
+    margin: 1em 2em;
     padding: 15px;
-    position: absolute;    
-    left: 36px;
+    position: absolute;
+        
+    
 
 }
 
@@ -22,9 +23,8 @@ header img{
 }
 
 main {
-    height: 700px;
-    margin: 0 15px 30px 15px;
     display: flex;
+    justify-content:center;
     
 }
 
@@ -34,7 +34,7 @@ textarea:focus {
 }
 
 .principal {
-    width: 1100px;
+    width: 60%;
 
 }
 
@@ -44,7 +44,7 @@ textarea:focus {
     width: 700px;
     height: 400px;
 
-    font-size: 32px;
+    font-size: 2em;
     color: #ffffff;
     font-weight: bold;
    
@@ -56,7 +56,7 @@ textarea:focus {
 
 .principal textarea::placeholder {
     color: lightgray;
-    font-size: 32px;
+    font-size: 2em;
 }
 
 .principal p {
@@ -109,7 +109,7 @@ textarea:focus {
 /* Campo de resposta*/
 
 .campoResposta {
-    width: 500px;
+    width: 40%;
     
      
 }
@@ -185,4 +185,11 @@ footer {
 #github img , #linkedin img{
     
     width: 35px;
+}
+
+@media screen and (max-width: 480px) {
+    .principal, .campoResposta {
+        width: 100%;
+    }
+    
 }
