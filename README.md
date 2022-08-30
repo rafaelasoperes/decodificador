@@ -1,6 +1,9 @@
 # Decodificador
 ## Primeiro Challege do projeto Oracle + Alura
-### Nesse Projeto eu usei arrays, estruturas de condição, loops e alguns metodos de arrays.
+
+### Esse é um decodificador de mensagens, onde você tem a possibilidade de CRIPTOGRAFAR e DESCRIPTOGRAFAR uma mensagem, foi um projeto que trabalhou bastante a lógica de programação e desenvolveu a linguagem Javascript.
+
+#### Nesse Projeto eu usei arrays, estruturas de condição, loops e alguns metodos de arrays.
 
 #### Tecnologias usadas.
   <img align="center" alt="Rafa-Js" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg"> Javascript
